@@ -1,0 +1,30 @@
+div {
+    font-family: san-serif;
+    font-size: 20px;
+}
+
+h1,h3 {
+    font-family: trajan-pro-3;
+    text-align: center
+}
+
+.panel-heading{
+  border-radius: 4px;
+  background-color: #E51D2E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+    font-family: trajan-pro-3,sans-serif; 
+    outline: none
+}
+
+.panel-body {
+}
+
+.bg-2 {
+    background-color: #D2D2D4;
+    margin-bottom: 20px;
+}

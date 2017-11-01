@@ -1,0 +1,105 @@
+<nav class="navbar navbar-inverse navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Salvation Army - Concord, CA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Welcome<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              <li><a [routerLink]="['/welcome']">About Us</a></li>
+            <li><a [routerLink]="['/pastoral-team']">Pastoral Team</a></li>
+            <li><a [routerLink]="['/faq']">FAQ's</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Visit Us<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a [routerLink]="['/visit']">First Time Visitors</a></li>
+            <li><a [routerLink]="['/map']">Map and Directions</a></li>
+            <li><a [routerLink]="['/belief']">What We Believe</a></li>
+            <li><a [routerLink]="['/know-god']">Know God</a></li>
+          </ul>
+        </li>
+
+        <li><a [routerLink]="['/events']">Upcoming Events</a></li>
+          
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Church Life<span class="caret"></span></a>  
+            <ul class="dropdown-menu">
+                <li><a [routerLink]="['/activities']">Weekly Activities</a></li>
+                <li><a [routerLink]="['/band']">Band</a></li>
+                <li><a [routerLink]="['/songsters']">Songsters</a></li>
+                <li><a [routerLink]="['/table']">The Table</a></li>
+                <li><a [routerLink]="['/blog']">Blog</a></li>
+            </ul>
+        </li>
+        <li><a [routerLink]="['/volunteer']">Volunteering</a></li>
+        <li><a [routerLink]="['/serving']">Serving</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Giving<span class="caret"></span></a>  
+            <ul class="dropdown-menu">
+                <li><a [routerLink]="['/donate']">How to Donate</a></li>
+                <li><a [routerLink]="['/giving']">Material Goods</a></li>
+                <li><a [routerLink]="['/gifts']">Gifts by Mail</a></li>
+                <li><a [routerLink]="['/online']">Online</a></li>
+                <li><a [routerLink]="['/reasons']">Top Ten Reasons</a></li>
+            </ul>
+        </li>
+        <li><a [routerLink]="['/contact']">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <div class="container">
+     <div  id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+         <ol class="carousel-indicators">
+             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#myCarousel" data-slide-to="1"></li>
+             <li data-target="#myCarousel" data-slide-to="2"></li>
+             <li data-target="#myCarousel" data-slide-to="3"></li>
+             <li data-target="#myCarousel" data-slide-to="4"></li>
+             <li data-target="#myCarousel" data-slide-to="5"></li>
+         </ol>
+
+         <div class="carousel-inner" role="listbox">
+             <div class="item active">
+               <img class="carouselImages" src="/images/stacks-image-56c476e-800x230.png">
+             </div>
+             <div class="item">
+               <img class="carouselImages" src="/images/stacks-image-40b15f8-800x230.jpg">
+             </div>
+             <div class="item">
+               <img class="carouselImages" src="/images/stacks-image-774ebfa-800x230.png">
+             </div>
+             <div class="item">
+               <img class="carouselImages" src="/images/stacks-image-82520b1-800x230.png">
+             </div>
+             <div class="item">
+               <img class="carouselImages" src="/images/stacks-image-fde3ca6-800x230.png">
+             </div>
+             <div class="item">
+               <img class="carouselImages" src="/images/stacks-image-41b5a4a-800x230.jpg">
+             </div>
+         </div>
+
+         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+             <span class="sr-only">Next</span>
+         </a>
+     </div>
+     <hr/>
+     
+
+</div>
